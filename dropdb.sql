@@ -1,0 +1,25 @@
+drop table movie_actors;
+drop table movie_countries;
+drop table movie_directors;
+drop table movie_genres;
+drop table movie_locations;
+drop table movie_tags;
+drop table movies;
+drop table tags;
+drop table user_ratedmovies;
+drop table user_ratedmovies_timestamps;
+drop table user_taggedmovies;
+drop table user_taggedmovies_timestamps;
+
+drop index in_actor on movie_actors;
+drop index in_country on movie_countries;
+drop index in_genre on movie_genres;
+drop index in_movie on movies;
+drop index in_mtag on movie_tags;
+drop index in_mtag2 on movie_tags;
+drop index in_tag on tags;
+drop index in_utag2 on user_taggedmovies;
+drop index in_utag on user_taggedmovies;
+drop index in_search on movie_actors;
+drop index in_utag3 on user_taggedmovies;
+drop index in_search on movie_actors;
